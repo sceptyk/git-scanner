@@ -1,0 +1,23 @@
+{
+  "name": "git-scanner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/d3": "^7.1.0",
+    "@types/lodash": "^4.14.177",
+    "d3": "^7.1.1",
+    "dayjs": "^1.10.7",
+    "icicle-chart": "^1.5.1",
+    "lodash": "^4.17.21",
+    "parcel": "^2.0.1",
+    "simple-git": "^2.48.0",
+    "timelines-chart": "^2.11.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "scripts": {
+    "visualize": "yarn parcel ./src/visualize/index.html",
+    "process": "yarn ts-node ./src/process/index.ts"
+  }
+}

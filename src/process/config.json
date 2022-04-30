@@ -1,0 +1,9 @@
+{
+  "repoDir": "",
+  "regex": "",
+  "afterDate": "2021-01-01",
+  "includeTop": 15,
+  "ignore": [],
+  "hideTickets": true,
+  "timelineAllPaths": false
+}

@@ -1,0 +1,275 @@
+{
+  "name": "../vsware-mis",
+  "children": [
+    {
+      "name": "src",
+      "children": [
+        {
+          "name": "main",
+          "children": [
+            {
+              "name": "resources",
+              "children": [
+                {
+                  "name": "liquibase-ddl",
+                  "children": [
+                    {
+                      "name": "changelog.xml",
+                      "children": [],
+                      "value": 17
+                    }
+                  ]
+                },
+                {
+                  "name": "messages_en.properties",
+                  "children": [],
+                  "value": 9
+                },
+                {
+                  "name": "application.properties",
+                  "children": [],
+                  "value": 6
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mis-api",
+      "children": [
+        {
+          "name": "src",
+          "children": [
+            {
+              "name": "main",
+              "children": [
+                {
+                  "name": "java",
+                  "children": [
+                    {
+                      "name": "com",
+                      "children": [
+                        {
+                          "name": "vsware",
+                          "children": [
+                            {
+                              "name": "daoService",
+                              "children": [
+                                {
+                                  "name": "programmearea",
+                                  "children": [
+                                    {
+                                      "name": "dao",
+                                      "children": [
+                                        {
+                                          "name": "ProgrammeAreaReadDao.java",
+                                          "children": [],
+                                          "value": 13
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "attendance",
+                                  "children": [
+                                    {
+                                      "name": "impl",
+                                      "children": [
+                                        {
+                                          "name": "AttendanceServiceV2Impl.java",
+                                          "children": [],
+                                          "value": 11
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "learnerPersonal",
+                                  "children": [
+                                    {
+                                      "name": "impl",
+                                      "children": [
+                                        {
+                                          "name": "LearnerPersonalServiceImpl.java",
+                                          "children": [],
+                                          "value": 10
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "export",
+                                  "children": [
+                                    {
+                                      "name": "ExportServiceImpl.java",
+                                      "children": [],
+                                      "value": 9
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "employment",
+                                  "children": [
+                                    {
+                                      "name": "dao",
+                                      "children": [
+                                        {
+                                          "name": "EmploymentDao.java",
+                                          "children": [],
+                                          "value": 8
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "absence",
+                                  "children": [
+                                    {
+                                      "name": "v2",
+                                      "children": [
+                                        {
+                                          "name": "impl",
+                                          "children": [
+                                            {
+                                              "name": "SubstitutionCoverDAO.java",
+                                              "children": [],
+                                              "value": 8
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "teachingGroup",
+                                  "children": [
+                                    {
+                                      "name": "exports",
+                                      "children": [
+                                        {
+                                          "name": "TeachingGroupVigoExporterService.java",
+                                          "children": [],
+                                          "value": 8
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "TeachingGroupServiceImpl.java",
+                                      "children": [],
+                                      "value": 7
+                                    },
+                                    {
+                                      "name": "mapper",
+                                      "children": [
+                                        {
+                                          "name": "TeachingGroupMapper.java",
+                                          "children": [],
+                                          "value": 7
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "services",
+                              "children": [
+                                {
+                                  "name": "employment",
+                                  "children": [
+                                    {
+                                      "name": "EmploymentService.java",
+                                      "children": [],
+                                      "value": 10
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "assessment",
+                                  "children": [
+                                    {
+                                      "name": "service",
+                                      "children": [
+                                        {
+                                          "name": "DefaultAssessmentService.java",
+                                          "children": [],
+                                          "value": 10
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mis-core",
+      "children": [
+        {
+          "name": "src",
+          "children": [
+            {
+              "name": "main",
+              "children": [
+                {
+                  "name": "java",
+                  "children": [
+                    {
+                      "name": "com",
+                      "children": [
+                        {
+                          "name": "vsware",
+                          "children": [
+                            {
+                              "name": "modules",
+                              "children": [
+                                {
+                                  "name": "core",
+                                  "children": [
+                                    {
+                                      "name": "cache",
+                                      "children": [
+                                        {
+                                          "name": "CacheKeys.java",
+                                          "children": [],
+                                          "value": 8
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
